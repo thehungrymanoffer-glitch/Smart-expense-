@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>EMI Manager</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="header">
+
+<h1>💳 EMI Manager</h1>
+
+<p>Manage Your Loans</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h2>➕ Add New EMI</h2>
+
+
+<input 
+id="emiName"
+type="text"
+placeholder="EMI Name (Bike Loan)">
+
+
+
+<input 
+id="emiAmount"
+type="number"
+placeholder="Monthly EMI Amount">
+
+
+
+<input 
+id="emiDate"
+type="number"
+placeholder="Due Date">
+
+
+
+<button onclick="addEMI()">
+
+Add EMI
+
+</button>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+
+<h2>💳 EMI List</h2>
+
+
+<div id="emiList">
+
+No EMI Added
+
+</div>
+
+
+</div>
+
+
+
+
+<button onclick="goHome()">
+
+🏠 Home
+
+</button>
+
+
+
+
+
+<script src="../js/emi.js"></script>
+
+
+</body>
+
+</html>

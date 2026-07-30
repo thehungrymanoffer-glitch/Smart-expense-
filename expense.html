@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Expense Manager</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="header">
+
+<h1>💸 Expense Manager</h1>
+
+<p>Track Your Spending</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>➕ Add Expense</h2>
+
+
+<input 
+id="expenseName"
+type="text"
+placeholder="Expense Name">
+
+
+
+<input 
+id="expenseAmount"
+type="number"
+placeholder="Amount">
+
+
+
+<select id="expenseCategory">
+
+<option value="Food">
+🍔 Food
+</option>
+
+
+<option value="Travel">
+🚕 Travel
+</option>
+
+
+<option value="Shopping">
+🛒 Shopping
+</option>
+
+
+<option value="Bill">
+📄 Bill
+</option>
+
+
+<option value="Other">
+📌 Other
+</option>
+
+
+</select>
+
+
+
+<button onclick="addExpense()">
+
+Save Expense
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h2>💸 Expense List</h2>
+
+
+<div id="expenseList">
+
+No Expense
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<button onclick="goHome()">
+
+🏠 Home
+
+</button>
+
+
+
+
+
+<script src="../js/expense.js"></script>
+
+
+</body>
+
+</html>

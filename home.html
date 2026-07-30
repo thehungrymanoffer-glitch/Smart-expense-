@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Smart Expense Home</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="header">
+
+<h1>🏠 Smart Expense</h1>
+
+<p>Powered by Pulak</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>💰 Salary</h2>
+
+
+<input 
+id="salaryInput"
+type="number"
+placeholder="Enter Monthly Salary">
+
+
+<button onclick="saveSalary()">
+
+Save Salary
+
+</button>
+
+
+<h3 id="salary">
+
+₹0
+
+</h3>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+<h2>📊 Monthly Budget</h2>
+
+<h3 id="monthlyBudget">
+
+₹0
+
+</h3>
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+<h2>📅 Daily Budget</h2>
+
+<h3 id="dailyBudget">
+
+₹0
+
+</h3>
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+<h2>💸 Total Expense</h2>
+
+<h3 id="todayExpense">
+
+₹0
+
+</h3>
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+<h2>📈 Budget Progress</h2>
+
+
+<div style="background:#ddd;height:20px;border-radius:10px;">
+
+<div id="budgetProgress"
+style="background:#8000ff;height:20px;width:0%;border-radius:10px;">
+</div>
+
+</div>
+
+
+<p id="budgetText">
+
+0% Budget Used
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="card">
+
+<h2>💳 Monthly EMI</h2>
+
+<div id="emiSummary">
+
+No EMI
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="card">
+
+<h2>🏠 Monthly Rent</h2>
+
+<div id="rentSummary">
+
+No Rent
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+<h2>📋 Money Overview</h2>
+
+
+<p>
+💰 Salary:
+<span id="overviewSalary">
+₹0
+</span>
+</p>
+
+
+<p>
+💳 EMI:
+<span id="overviewEMI">
+₹0
+</span>
+</p>
+
+
+<p>
+🏠 Rent:
+<span id="overviewRent">
+₹0
+</span>
+</p>
+
+
+<p>
+💸 Expense:
+<span id="overviewExpense">
+₹0
+</span>
+</p>
+
+
+<hr>
+
+
+<h3>
+💰 Available:
+<span id="overviewBalance">
+₹0
+</span>
+</h3>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+<h2>🎯 Saving Goals</h2>
+
+
+<div id="homeGoals">
+
+No Goal
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+<h2>⚡ Quick Access</h2>
+
+
+
+<button onclick="openPage('expense.html')">
+
+💸 Expense
+
+</button>
+
+
+
+<button onclick="openPage('budget.html')">
+
+📊 Budget
+
+</button>
+
+
+
+<button onclick="openPage('saving.html')">
+
+🎯 Saving
+
+</button>
+
+
+
+<button onclick="openPage('emi.html')">
+
+💳 EMI
+
+</button>
+
+
+
+<button onclick="openPage('rent.html')">
+
+🏠 Rent
+
+</button>
+
+
+
+<button onclick="openPage('report.html')">
+
+📈 Report
+
+</button>
+
+
+
+<button onclick="openPage('settings.html')">
+
+⚙️ Settings
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+<button onclick="logout()">
+
+🚪 Logout
+
+</button>
+
+
+
+
+
+
+<script src="js/app.js"></script>
+
+
+</body>
+
+</html>

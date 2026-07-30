@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Saving Goal</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="header">
+
+<h1>🎯 Saving Goal</h1>
+
+<p>Save For Future</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+
+<h2>Create New Goal</h2>
+
+
+<input 
+id="goalName"
+type="text"
+placeholder="Goal Name">
+
+
+
+<input 
+id="targetAmount"
+type="number"
+placeholder="Target Amount">
+
+
+
+<button onclick="createGoal()">
+
+Create Goal
+
+</button>
+
+
+</div>
+
+
+
+
+<div class="card">
+
+
+<h2>Add Money</h2>
+
+
+<select id="goalSelect">
+
+</select>
+
+
+
+<input 
+id="saveAmount"
+type="number"
+placeholder="Add Amount">
+
+
+
+<button onclick="addMoney()">
+
+Add Money
+
+</button>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+
+<h2>🎯 My Goals</h2>
+
+
+<div id="goalList">
+
+No Goal
+
+</div>
+
+
+</div>
+
+
+
+
+<button onclick="goHome()">
+
+🏠 Home
+
+</button>
+
+
+
+<script src="../js/saving.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Settings</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="header">
+
+<h1>⚙️ Settings</h1>
+
+<p>App Control</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>👤 User Name</h2>
+
+
+<input 
+id="userName"
+type="text"
+placeholder="Enter Your Name">
+
+
+<button onclick="saveUser()">
+
+Save Name
+
+</button>
+
+
+<h3 id="showUser">
+
+</h3>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+<h2>🔐 App Password</h2>
+
+
+<input 
+id="appPassword"
+type="number"
+placeholder="4 Digit Password">
+
+
+
+<button onclick="savePassword()">
+
+Set Password
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="card">
+
+<h2>🎨 Theme</h2>
+
+
+<select id="themeSelect">
+
+
+<option value="purple">
+
+Purple
+
+</option>
+
+
+<option value="dark">
+
+Dark
+
+</option>
+
+
+<option value="light">
+
+Light
+
+</option>
+
+
+</select>
+
+
+
+<button onclick="saveTheme()">
+
+Save Theme
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="card">
+
+<h2>⚠️ Data Control</h2>
+
+
+
+<button onclick="clearData()">
+
+Delete All Data
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+<button onclick="goHome()">
+
+🏠 Home
+
+</button>
+
+
+
+
+
+
+<script src="../js/settings.js"></script>
+
+
+</body>
+
+</html>

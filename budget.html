@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Budget Manager</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="header">
+
+<h1>📊 Budget Manager</h1>
+
+<p>Control Your Spending</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>➕ Set Monthly Budget</h2>
+
+
+<input 
+id="budgetAmount"
+type="number"
+placeholder="Monthly Budget Amount">
+
+
+
+<button onclick="saveBudget()">
+
+Save Budget
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+<div class="card">
+
+<h2>📊 Budget Details</h2>
+
+
+<p>
+Monthly Budget:
+</p>
+
+<h3 id="showBudget">
+₹0
+</h3>
+
+
+
+<p>
+Used:
+</p>
+
+<h3 id="usedBudget">
+₹0
+</h3>
+
+
+
+<p>
+Remaining:
+</p>
+
+<h3 id="remainingBudget">
+₹0
+</h3>
+
+
+
+<p>
+Today's Limit:
+</p>
+
+<h3 id="dailyLimit">
+₹0
+</h3>
+
+
+</div>
+
+
+
+
+
+
+<div class="card">
+
+<h2 id="budgetWarning">
+
+✅ Budget Safe
+
+</h2>
+
+
+</div>
+
+
+
+
+
+
+<button onclick="goHome()">
+
+🏠 Home
+
+</button>
+
+
+
+
+
+
+<script src="../js/budget.js"></script>
+
+
+</body>
+
+</html>

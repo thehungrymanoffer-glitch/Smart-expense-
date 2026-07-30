@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Rent Manager</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="header">
+
+<h1>🏠 Rent Manager</h1>
+
+<p>Track Monthly Rent</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>➕ Add Rent</h2>
+
+
+<input 
+id="rentName"
+type="text"
+placeholder="Example: House Rent">
+
+
+
+<input 
+id="rentAmount"
+type="number"
+placeholder="Monthly Rent Amount">
+
+
+
+<input 
+id="rentDate"
+type="number"
+placeholder="Due Date">
+
+
+
+<button onclick="addRent()">
+
+Save Rent
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+<div class="card">
+
+
+<h2>🏠 My Rent</h2>
+
+
+<div id="rentList">
+
+No Rent
+
+</div>
+
+
+</div>
+
+
+
+
+
+<button onclick="goHome()">
+
+🏠 Home
+
+</button>
+
+
+
+
+
+<script src="../js/rent.js"></script>
+
+
+</body>
+
+</html>
